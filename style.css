@@ -1,9 +1,18 @@
+html {
+  background:rgb(121, 161, 206);
+}
 body {
-  width:90%;
+  width:900px;
+  border: 1px solid lightslategray;
+  margin:auto;
+  padding:20px;
+  background:white;
+  font-family:Garamond;
 }
 
 th {
   vertical-align:top;
+  background: rgb(59, 175, 204);
 }
 
 td {
@@ -13,8 +22,25 @@ td {
 
 th {
   text-align:center;
+  padding:5px;
+  font-size:12
 }
 
 ul {
    margin:0;
+}
+
+table {
+  max-width:850px;
+  background:rgb(202, 243, 255);
+  text-align:left;
+  margin:auto;
+}
+
+td:first-child {
+  text-align:center;
+}
+
+td:nth-child(4) {
+  text-align:center;
 }
